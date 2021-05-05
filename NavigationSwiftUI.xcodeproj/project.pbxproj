@@ -11,6 +11,8 @@
 		91224341264207E9003FFCA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91224340264207E9003FFCA0 /* ContentView.swift */; };
 		91224343264207EF003FFCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91224342264207EF003FFCA0 /* Assets.xcassets */; };
 		91224346264207EF003FFCA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91224345264207EF003FFCA0 /* Preview Assets.xcassets */; };
+		9122435026421227003FFCA0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122434F26421227003FFCA0 /* DetailView.swift */; };
+		91B2B95826422D8B00099274 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B2B95726422D8B00099274 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		91224342264207EF003FFCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91224345264207EF003FFCA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91224347264207EF003FFCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9122434F26421227003FFCA0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		91B2B95726422D8B00099274 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				91224342264207EF003FFCA0 /* Assets.xcassets */,
 				91224347264207EF003FFCA0 /* Info.plist */,
 				91224344264207EF003FFCA0 /* Preview Content */,
+				9122434F26421227003FFCA0 /* DetailView.swift */,
+				91B2B95726422D8B00099274 /* Contact.swift */,
 			);
 			path = NavigationSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B2B95826422D8B00099274 /* Contact.swift in Sources */,
 				91224341264207E9003FFCA0 /* ContentView.swift in Sources */,
+				9122435026421227003FFCA0 /* DetailView.swift in Sources */,
 				9122433F264207E9003FFCA0 /* NavigationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
